@@ -29,4 +29,4 @@ def generate_prime(n):
 
     return liste
 
-print('voici',generate_prime(4))
+print('voici la liste des nombre premier',generate_prime(4))

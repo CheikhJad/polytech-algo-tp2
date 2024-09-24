@@ -24,7 +24,6 @@ else:
 
 
 
-#2.2 Implémentation
 
 
 
