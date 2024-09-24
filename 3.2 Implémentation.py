@@ -17,3 +17,14 @@ def is_prime(x):
             res = False
 
     return res
+
+def generate_prime(n):
+    x = 0
+    liste = []
+    while n > 0 :
+        if is_prime(x) == True:
+            liste.append(x)
+            n = n-1
+        x += 1
+
+    return liste
