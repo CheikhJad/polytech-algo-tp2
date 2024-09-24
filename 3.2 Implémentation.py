@@ -28,3 +28,5 @@ def generate_primev2(a,b):
         a += 1
 
     return liste
+
+print('voici la liste des nombre premier entre la borne a et b',generate_primev2(a,b))
