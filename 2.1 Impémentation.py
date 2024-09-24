@@ -1,7 +1,7 @@
 
 #2.2 Implémentation
 
-
+a = int(input("Enter a number: "))
 def is_prime(x):
     res = True
 
@@ -29,4 +29,4 @@ def generate_prime(n):
 
     return liste
 
-print('voici la liste des nombre premier',generate_prime(4))
+print('voici la liste des nombre premier',generate_prime(a))
