@@ -18,13 +18,13 @@ def is_prime(x):
 
     return res
 
-def generate_prime(n):
-    x = 0
+def generate_primev2(a,b):
+
     liste = []
-    while n > 0 :
-        if is_prime(x) == True:
-            liste.append(x)
-            n = n-1
-        x += 1
+    while a < b :
+        if is_prime(a) == True:
+            liste.append(a)
+
+        a += 1
 
     return liste

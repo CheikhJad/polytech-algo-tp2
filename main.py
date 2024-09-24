@@ -25,9 +25,3 @@ else:
 
 
 
-
-
-
-#3.2 Implémentation
-
-
